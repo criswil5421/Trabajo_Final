@@ -1,0 +1,151 @@
+header{
+	background-color: #7A93A4;
+	padding: 5px 100px 5px 100px;
+	margin: -10px -10px -10px -5px;
+	display: flex;
+	height: 10%;
+	flex-direction: row;
+}
+#p1{
+	font-family: Brush Script MT;
+	color: #EEF8FF;
+	text-shadow: 2px 2px 2px black;
+	padding: 0px;
+	font-size: 3em;
+	margin-left: -15px;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: -50px;
+}
+.menu{
+	color: #EEF8FF;
+	font-size: 2em;
+	font-family: Brush Script MT;
+	padding-top: 30px;
+	float: right;
+	width: 50%;
+	flex-direction: row;
+}
+nav{
+	color: #EEF8FF;
+	font-size: 1.8em;
+	font-family: Brush Script MT;
+	margin: auto;
+	margin-right: -30px;
+	
+}
+
+nav li{
+    display: inline;
+    padding-left: 20px;
+}
+#m1{
+	color: #EEF8FF;
+	font-weight: bold;
+	
+}
+#m2{
+	color: #EEF8FF;
+	text-decoration: none;	
+}
+#m3{
+	color: #EEF8FF;
+	font-weight: bold;
+}
+.imagenes{
+	background-color: #ae323b;
+	border: 0px;
+	margin: 0 auto;
+
+}
+.imagen1{
+	transform: scale(0.9, 0.9);
+	filter: blur(10px);
+}
+.imagen2{
+	transform: scale(0.9, 0.9);
+	filter: grayscale(10%);
+}
+.imagen3{
+	transform: scale(0.9, 0.9);
+	filter: sepia(50%);
+}
+.imagen4{
+	transform: scale(0.9, 0.9);
+	filter: grayscale(10%);
+}
+.imagen5{
+	transform: scale(0.9, 0.9);
+	filter: brightness(10%);
+}
+.informacion{
+	background-color: #19B9D2;
+}
+.contactos{
+	float: left;
+	margin-left: 20px;
+}
+.terminos{
+	float: left;
+	margin-left: 20px;
+}
+.redes{
+	float: left;
+	margin-left: 20px;
+}
+.derechos{
+	float: right;
+	margin-left: 20px;
+}
+@media (min-width: 421px) and (max-width: 800px){
+		p{
+			text-align: center;
+			margin-bottom: -30px;
+			float: left;
+			margin-top: -4px;
+			font-size: 2.5em;
+		}
+		nav{
+			height: 50%;
+			flex-direction: row;
+			display: flex;
+		}
+		#m3{
+			float: right;
+			padding-left: 0px;
+			margin-bottom: 100px;
+		}
+		#m2{
+			float: left;
+			padding-left: 5px;
+		}
+		#m1{
+			float: left;
+			padding-left: 20px;
+			margin-left: -100px;
+		}
+		header{
+			flex-direction: column;
+			height: 200px;
+		}
+		.imagen1{
+			transform: scale(0.9, 0.9);
+			filter: blur(10px);
+		}
+		.imagen2{
+			transform: scale(0.9, 0.9);
+			filter: grayscale(10%);
+		}
+		.imagen3{
+			transform: scale(0.9, 0.9);
+			filter: sepia(50%);
+		}
+		.imagen4{
+			transform: scale(0.9, 0.9);
+			filter: grayscale(10%);
+		}
+		.imagen5{
+			transform: scale(0.9, 0.9);
+			filter: brightness(10%);
+		}
+}
